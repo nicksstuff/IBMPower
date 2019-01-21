@@ -1,7 +1,7 @@
 {
-   "name": "SAP HANA Single Virtual Machine Example",
-   "description": "SAP HANA Example to instantiate virtual machine.",
-   "version": "1.1",
+   "name": "SAP HANA high-availability pair",
+   "description": "SAP HANA high-availability pair example to instantiate virtual machine.",
+   "version": "1.0",
    "imageUrl": "./assets/svg/IBM_WebSphere_Standalone.svg",
    "image": "tp_WAS_standalone.png",
    "type": "prebuilt",
@@ -18,14 +18,14 @@
      "template_source": {
      "githubRepoUrl": "",
      "githubAccessToken": "",
-     "relativePathToTemplateFolder": "sap-hana/single_node_hana",
+     "relativePathToTemplateFolder": "sap-hana/ha_pair",
      "templateFileName": "main.tf"
       }
    },
    "metadata": {
-     "displayName": "SAP HANA Single Virtual Machine Example",
+     "displayName": "SAP HANA high-availability pair",
      "providerDisplayName": "openstack - IBM PowerVC",
-     "longDescription": "SAP HANA Single Virtual Machine Example",
+     "longDescription": "SAP HANA high-availability pair",
      "bullets": [
       {
         "title": "Clouds",
@@ -74,6 +74,6 @@
      ]
    },
    "toolchain": {
-     "git": "https://github.com/nicksstuff/IBMPower/tree/master/sap-hana/single_node_hana"
+     "git": "https://github.com/nicksstuff/IBMPower/tree/master/sap-hana/ha_pair"
    }
  }
