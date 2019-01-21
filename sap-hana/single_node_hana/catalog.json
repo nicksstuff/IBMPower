@@ -1,7 +1,7 @@
 {
    "name": "SAP HANA Single Virtual Machine Example",
    "description": "SAP HANA Example to instantiate virtual machine.",
-   "version": "1.0",
+   "version": "1.1",
    "imageUrl": "./assets/svg/IBM_WebSphere_Standalone.svg",
    "image": "tp_WAS_standalone.png",
    "type": "prebuilt",
